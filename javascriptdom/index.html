@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <h1 class="heading">Weather Application</h1>
+        <p id="hero">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque,
+        </p>
+    </header>
+    <main>
+        <form id="locationForm">
+            <label for="location">Enter Location:</label><br>
+            <input type="text" id="location" value="" required placeholder="Kigali"/><br>
+            <button type="submit">Submit</button>
+        </form>
+        <section>
+            <div>
+                <img src="" alt="weather icon">
+                <div id="container">
+                    <h2 id="country"></h2>
+                    <p id="desc"></p>
+                    <ul>  
+                        <li id="wind"></li>   
+                        <li id="coord"></li>   
+                        <li id="temp"></li>  
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p id="footer"></p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
