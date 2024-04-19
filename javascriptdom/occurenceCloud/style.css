@@ -1,0 +1,85 @@
+#myWordCloud {
+    display: flex;
+    justify-content: space-around;
+    height: 40em;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10em;
+    background-color: rgb(214, 159, 159);
+    width: 80%;
+    border-radius: 5px;
+}
+
+#myWordCloud p:first-child{
+   color: blue;
+    position: absolute;
+    top:10%;
+    left:10%;
+}
+#myWordCloud p:nth-child(2){
+   color: green;
+    position: absolute;
+    top:20%;
+    left:20%;
+}
+#myWordCloud p:nth-child(3){
+    color: red;
+    position: absolute;
+    top:30%;
+    left:30%;
+}
+#myWordCloud p:nth-child(4){
+
+    position: absolute;
+    top:40%;
+    left:50%;
+}
+#myWordCloud p:nth-child(5){
+    color: violet;
+    position: absolute;
+    top:50%;
+    left:50%;
+}
+#myWordCloud p:nth-child(6){
+   color: indianred;
+    position: absolute;
+    top:60%;
+    left:60%;
+}
+#myWordCloud p:nth-child(7){
+    color: palegoldenrod;
+    position: absolute;
+    top:70%;
+    left:70%;
+}
+#myWordCloud p:nth-child(8){
+    color: yellowgreen;
+    position: absolute;
+    top:80%;
+    left:80%;
+}
+#myWordCloud p:nth-child(9){
+    color: blanchedalmond;
+    position: absolute;
+    top:90%;
+    left:90%;
+}
+#myWordCloud p:nth-child(10){
+    color: hotpink;
+    position: absolute;
+    top:7%;
+    left:7%;
+}
+#myWordCloud p:nth-child(11){
+    color: rgb(96, 95, 86);
+    position: absolute;
+    top:25%;
+    left:25%;
+}
+#myWordCloud p:nth-child(12){
+    color:dodgerblue;
+    position: absolute;
+    top:67%;
+    left:87%;
+}
